@@ -1,7 +1,8 @@
 # nn-addition-app
+
 An interactive demo of a simple neural network
 
-# 🧠 Neural Network for Learning Addition
+## 🧠 Neural Network for Learning Addition
 
 This is a simple Streamlit app that trains a small neural network to **learn how to add two numbers** between 0 and 20. It visualizes the model's performance and allows users to test predictions interactively.
 
@@ -24,43 +25,46 @@ This is a simple Streamlit app that trains a small neural network to **learn how
 ```bash
 git clone https://github.com/yourusername/nn-addition-app.git
 cd nn-addition-app
+```
 
 ### 2. Install dependencies
 
-bash
-Copy
-Edit
+```bash
 pip install -r requirements.txt
+```
 
 ### 3. Run the app
 
-bash
-Copy
-Edit
+```bash
 streamlit run nn_addition_streamlit.py
+```
+
 The app will open in your browser at http://localhost:8501
 
 ## 🌍 Try It Online
+
 You can use the app live on Streamlit Cloud:
 
-## 👉 Launch the app
+[Launch the app](https://your-app-url-here)
 
 ## 📂 File Overview
 
-File	Description
-nn_addition_streamlit.py	Main Streamlit app
-requirements.txt	Dependencies needed to run the app
-💡 Ideas for Extension
-Let users add/remove training pairs
+| File | Description |
+| ---- | ----------- |
+| nn_addition_streamlit.py | Main Streamlit app |
+| requirements.txt | Dependencies needed to run the app |
 
-Visualize the internal computation of the network
+## 💡 Ideas for Extension
 
-Add options for different activation functions
-
-Switch to regression (using linear output) instead of classification
+- Let users add/remove training pairs
+- Visualize the internal computation of the network
+- Add options for different activation functions
+- Switch to regression (using linear output) instead of classification
 
 ## 🧑‍💻 Author
+
 Made with ❤️ by me
 
-📜 License
+## 📜 License
+
 This project is licensed under the MIT License.
