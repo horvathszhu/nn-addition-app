@@ -24,12 +24,16 @@ This is a simple Streamlit app that trains a small neural network to **learn how
 ```bash
 git clone https://github.com/yourusername/nn-addition-app.git
 cd nn-addition-app
+
 ### 2. Install dependencies
+
 bash
 Copy
 Edit
 pip install -r requirements.txt
+
 ### 3. Run the app
+
 bash
 Copy
 Edit
