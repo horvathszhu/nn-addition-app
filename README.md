@@ -24,24 +24,24 @@ This is a simple Streamlit app that trains a small neural network to **learn how
 ```bash
 git clone https://github.com/yourusername/nn-addition-app.git
 cd nn-addition-app
-2. Install dependencies
+### 2. Install dependencies
 bash
 Copy
 Edit
 pip install -r requirements.txt
-3. Run the app
+### 3. Run the app
 bash
 Copy
 Edit
 streamlit run nn_addition_streamlit.py
 The app will open in your browser at http://localhost:8501
 
-🌍 Try It Online
+## 🌍 Try It Online
 You can use the app live on Streamlit Cloud:
 
-👉 Launch the app
+## 👉 Launch the app
 
-📂 File Overview
+## 📂 File Overview
 
 File	Description
 nn_addition_streamlit.py	Main Streamlit app
@@ -55,7 +55,7 @@ Add options for different activation functions
 
 Switch to regression (using linear output) instead of classification
 
-🧑‍💻 Author
+## 🧑‍💻 Author
 Made with ❤️ by me
 
 📜 License
